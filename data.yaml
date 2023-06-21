@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 2
+names: ['cats-dogs', 'dog']
+
+roboflow:
+  workspace: viso-computacional-yolov8
+  project: catsdogsdetetion
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/viso-computacional-yolov8/catsdogsdetetion/dataset/1
